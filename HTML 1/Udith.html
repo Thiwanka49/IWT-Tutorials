@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Udith Education</title>
+</head>
+
+<body>
+<p id="text">Format the buttons</p>
+
+<button id="style">Style</button>
+<button id="size">Size</button>
+<button id="hide">Hide</button>
+
+<script type="text/javascript">
+document.getElementById("style").onclick = function() {
+	document.getElementById("text").style.color = "red";
+};
+document.getElementById("size").onclick = function() {
+	document.getElementById("text").style.fontSize = "50px";
+};
+document.getElementById("hide").onclick = function() {
+	document.getElementById("text").style.display = "none";
+};
+</script>
+</body>
+</html>

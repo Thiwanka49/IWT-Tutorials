@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript</title>
+</head>
+<body>
+  <p id="text">Hello Style Hackinglk</p>
+  <button id="style">style change</button>
+  <button id="size">size change</button>
+  <button id="hide">hide text</button>
+  <script type="text/javascript">
+    document.getElementById("style").onclick = function() {
+      document.getElementById("text").style.color = "red";
+    }
+    
+    document.getElementById("size").onclick = function() {
+      document.getElementById("text").style.fontSize = "100px";
+	} 
+	
+	document.getElementById("hide").onclick = function() {
+      document.getElementById("text").style.display = "none";
+	} 
+  </script>
+</body>
+</html>
